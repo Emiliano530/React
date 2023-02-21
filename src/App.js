@@ -32,7 +32,7 @@ function Board({ xIsNext, squares, onPlay }) {
 
   return (
     <>
-      <div className="status">{status}</div>
+      <div className="status">{status}</div>  //apartir de estas lineas se crean lo que son los cuadrados, se han creado varias veces las lineas para que tengamos las filas
       <div className="board-row">
         <Square value={squares[0]} onSquareClick={() => handleClick(0)} />
         <Square value={squares[1]} onSquareClick={() => handleClick(1)} />
