@@ -1,6 +1,7 @@
 import React, { StrictMode } from "react";
 import { createRoot } from "react-dom/client";
 import "./styles.css";
+//se importa el react que es una biblioteca de java y los estilos de la app
 
 import App from "./App";
 
