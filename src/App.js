@@ -93,7 +93,7 @@ export default function Game() {
     </div>
   );
 }
-
+//aqui se muestran las posibles convinaciones para que ganes.
 function calculateWinner(squares) {
   const lines = [
     [0, 1, 2],
